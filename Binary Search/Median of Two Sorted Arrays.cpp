@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/median-of-two-sorted-arrays/
+//https://www.youtube.com/watch?v=NTop3VTjmxk&t=508s&ab_channel=takeUforward
 // approach 1 (brute-force)
 //take an extra array and push it both num1,num2 and sort it and find the median
 // approach 2(optimal)
