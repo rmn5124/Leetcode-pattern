@@ -1,6 +1,8 @@
- long long int factorial(int n){
-        //code 
-        if(n==0) return 1;// since factorial 0 is 1// termination condition
-        long long help=factorial(n-1); // we will trust this function that it will return partial ans of fact(n-1)
-        return n*help;
+class Solution {
+public:
+    int fib(int n) {
+        if(n==0) return 0;
+        if(n<=2) return 1;
+        return fib(n-1)+fib(n-2); // we will trust fib(n-1),fib(n-2) to return it's fibbonacci number and since we know that fib(n)=fib(n-1)+fib(n-2);
     }
+};
